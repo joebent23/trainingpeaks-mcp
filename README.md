@@ -22,7 +22,7 @@ Ask your AI assistant things like:
 - "Set my FTP to 310 and update my power zones"
 - "Add a calendar note for next Monday: rest day, travel"
 
-## Tools (52)
+## Tools (54)
 
 ### Workouts
 | Tool | Description |
@@ -34,6 +34,8 @@ Ask your AI assistant things like:
 | `tp_delete_workout` | Delete a workout |
 | `tp_copy_workout` | Copy a workout to a new date (preserves structure and planned fields) |
 | `tp_reorder_workouts` | Reorder workouts on a given day |
+| `tp_pair_workout` | Pair a completed workout with a planned workout (merges into one) |
+| `tp_unpair_workout` | Unpair a workout (splits into separate completed and planned workouts) |
 | `tp_validate_structure` | Validate interval structure without creating a workout |
 | `tp_get_workout_comments` | Get comments on a workout |
 | `tp_add_workout_comment` | Add a comment to a workout |
@@ -52,7 +54,7 @@ Ask your AI assistant things like:
 | Tool | Description |
 |------|-------------|
 | `tp_get_athlete_settings` | Get FTP, thresholds, zones, profile |
-| `tp_update_ftp` | Update FTP and recalculate Coggan 5-zone model |
+| `tp_update_ftp` | Update FTP and recalculate the default power zones |
 | `tp_update_hr_zones` | Update heart rate zones |
 | `tp_update_speed_zones` | Update run/swim pace zones |
 | `tp_update_nutrition` | Update daily planned calories |
